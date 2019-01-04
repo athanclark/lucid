@@ -1,0 +1,34 @@
+name: lucid-class
+version: 0.0.0
+synopsis: A simple typeclass for contextual, HTML-showable data.
+description: Please see the README on Github at <https://github.com/athanclark/lucid-class#readme>
+maintainer: Athan Clark <athan.clark@localcooking.com>
+license: BSD3
+github: athanclark/lucid-class
+category: Web
+
+ghc-options: -Wall
+
+dependencies:
+  - base >= 4.8 && < 5
+  - lucid
+  # - attoparsec
+  # - errors
+  # - exceptions
+  # - extractable-singleton
+  # - hashable
+  # - monad-control-aligned
+  # - mtl
+  # - poly-arity >= 0.0.7
+  # - pred-trie >= 0.6.1
+  # - regex-compat
+  # - text
+  # - tries >= 0.0.6
+  # - unordered-containers
+  # - wai >= 3.2.1
+  # - wai-transformers >= 0.1.0
+  # - wai-middleware-content-type >= 0.6.2
+  # - wai-middleware-verbs >= 0.4.0.1
+
+library:
+  source-dirs: src
