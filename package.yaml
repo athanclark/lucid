@@ -12,19 +12,21 @@ ghc-options: -Wall
 dependencies:
   - base >= 4.8 && < 5
   - lucid
+  - blaze-builder
+  - bytestring
   # - attoparsec
   # - errors
   # - exceptions
-  # - extractable-singleton
-  # - hashable
+  - hashable
   # - monad-control-aligned
-  # - mtl
+  - mtl
+  - mmorph
   # - poly-arity >= 0.0.7
   # - pred-trie >= 0.6.1
   # - regex-compat
-  # - text
+  - text
   # - tries >= 0.0.6
-  # - unordered-containers
+  - unordered-containers
   # - wai >= 3.2.1
   # - wai-transformers >= 0.1.0
   # - wai-middleware-content-type >= 0.6.2

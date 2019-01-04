@@ -1,0 +1,42 @@
+-- This file has been generated from package.yaml by hpack version 0.21.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: c72b0bb317804f893b0dad00cffbd5d68cf466abd14789cc4246b81cbf970d58
+
+name:           lucid-class
+version:        0.0.0
+synopsis:       A simple typeclass for contextual, HTML-showable data.
+description:    Please see the README on Github at <https://github.com/athanclark/lucid-class#readme>
+category:       Web
+homepage:       https://github.com/athanclark/lucid-class#readme
+bug-reports:    https://github.com/athanclark/lucid-class/issues
+maintainer:     Athan Clark <athan.clark@localcooking.com>
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+source-repository head
+  type: git
+  location: https://github.com/athanclark/lucid-class
+
+library
+  exposed-modules:
+      Lucid.Class
+  other-modules:
+      Paths_lucid_class
+  hs-source-dirs:
+      src
+  ghc-options: -Wall
+  build-depends:
+      base >=4.8 && <5
+    , blaze-builder
+    , bytestring
+    , hashable
+    , lucid
+    , mmorph
+    , mtl
+    , text
+    , unordered-containers
+  default-language: Haskell2010
